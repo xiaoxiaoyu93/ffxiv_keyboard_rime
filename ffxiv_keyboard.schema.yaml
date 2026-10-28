@@ -33,7 +33,11 @@ engine:
 translator:
   dictionary: ffxiv_keyboard_dict
   enable_user_dict: false
+  enable_completion: true
+  enable_sentence: false
 
 speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
   algebra:
     - abbrev/^(.).+$/$1/
