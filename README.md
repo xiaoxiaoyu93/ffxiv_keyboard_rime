@@ -2,22 +2,27 @@
 
 一个适用于 Rime / 小狼毫 Weasel 的《魔光键影》词库方案。
 
+## 下载小狼毫
+
+- 官方下载页：<https://rime.im/download/>
+- GitHub Releases：<https://github.com/rime/weasel/releases>
+
 ## 文件
 
 - `ffxiv_keyboard.schema.yaml`：Rime 输入方案
 - `ffxiv_keyboard_table.dict.yaml`：表格式词库，包含全拼紧凑码和首字母简拼码
-- `default.custom.example.yaml`：加入方案列表的配置示例
 
 ## 安装
 
-1. 把 `ffxiv_keyboard.schema.yaml` 和 `ffxiv_keyboard_table.dict.yaml` 复制到 Rime 用户目录。
-2. Windows 小狼毫用户目录通常是：
+1. 安装小狼毫 Weasel。
+2. 把 `ffxiv_keyboard.schema.yaml` 和 `ffxiv_keyboard_table.dict.yaml` 复制到 Rime 用户目录。
+3. Windows 小狼毫用户目录通常是：
 
    ```text
    %APPDATA%\Rime
    ```
 
-3. 编辑用户目录下的 `default.custom.yaml`，在 `patch.schema_list` 中加入：
+4. 编辑用户目录下的 `default.custom.yaml`，在 `patch.schema_list` 中加入：
 
    ```yaml
    patch:
@@ -25,10 +30,8 @@
        - {schema: ffxiv_keyboard}
    ```
 
-4. 重新部署 Rime。
-5. 在小狼毫方案菜单中选择「魔光键影」。
-
-`default.custom.example.yaml` 只提供参考。不要直接覆盖自己的 `default.custom.yaml`，否则可能丢失你原来的方案设置。
+5. 重新部署 Rime。
+6. 在小狼毫方案菜单中选择「魔光键影」。
 
 ## 使用
 

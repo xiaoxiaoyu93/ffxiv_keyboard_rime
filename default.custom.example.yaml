@@ -1,8 +1,0 @@
-# 参考示例：不要直接覆盖你的 default.custom.yaml
-# 请在现有 patch.schema_list 中加入 ffxiv_keyboard
-patch:
-  schema_list:
-    - {schema: luna_pinyin}
-    - {schema: luna_pinyin_simp}
-    - {schema: luna_pinyin_fluency}
-    - {schema: ffxiv_keyboard}
