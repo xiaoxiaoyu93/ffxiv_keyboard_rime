@@ -1,0 +1,6 @@
+build/
+sync/
+user.yaml
+installation.yaml
+*.userdb/
+*.log
