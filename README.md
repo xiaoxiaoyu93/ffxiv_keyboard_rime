@@ -5,12 +5,12 @@
 ## 文件
 
 - `ffxiv_keyboard.schema.yaml`：Rime 输入方案
-- `ffxiv_keyboard_dict.dict.yaml`：词库
+- `ffxiv_keyboard_table.dict.yaml`：表格式词库，包含全拼紧凑码和首字母简拼码
 - `default.custom.example.yaml`：加入方案列表的配置示例
 
 ## 安装
 
-1. 把 `ffxiv_keyboard.schema.yaml` 和 `ffxiv_keyboard_dict.dict.yaml` 复制到 Rime 用户目录。
+1. 把 `ffxiv_keyboard.schema.yaml` 和 `ffxiv_keyboard_table.dict.yaml` 复制到 Rime 用户目录。
 2. Windows 小狼毫用户目录通常是：
 
    ```text
@@ -32,7 +32,12 @@
 
 ## 使用
 
-切换方案后，可以用完整拼音或首字母简拼输入词库内容。
+切换方案后，可以输入：
+
+- 全拼紧凑码，例如 `shenluo`
+- 首字母简拼，例如 `sl`
+
+因为使用 `table_translator`，输入部分编码时也会出现候选。
 
 ## 许可说明
 

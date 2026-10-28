@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The dictionary file `ffxiv_keyboard_dict.dict.yaml` contains data derived from
+The dictionary file `ffxiv_keyboard_table.dict.yaml` contains data derived from
 the "魔光键影" dictionary and game-related text. It is provided for personal
 study and use with Rime only. The original rights to the game text and source
 dictionary remain with their respective rights holders.
